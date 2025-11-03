@@ -38,15 +38,12 @@ class NotificationScreen extends StatelessWidget {
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // 🔔 Left Icon
                 const Icon(
                   Icons.notifications_active,
                   color: Colors.indigo,
                   size: 28,
                 ),
                 const SizedBox(width: 10),
-
-                // 📄 Text Section
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -79,8 +76,6 @@ class NotificationScreen extends StatelessWidget {
                 ),
 
                 const SizedBox(width: 10),
-
-                // 🛍️ Right Image
                 ClipRRect(
                   borderRadius: BorderRadius.circular(10),
                   child: Image.asset(

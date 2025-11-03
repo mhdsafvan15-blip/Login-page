@@ -13,10 +13,6 @@ class AppBarSection extends StatelessWidget implements PreferredSizeWidget {
       title: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-
-
-          //BLUE BOX
-
           Container(
             padding: EdgeInsets.symmetric(horizontal: 10, vertical: 6),
             decoration: BoxDecoration(
@@ -43,11 +39,6 @@ class AppBarSection extends StatelessWidget implements PreferredSizeWidget {
               ],
             ),
           ),
-
-
-          //GRO Box
-
-
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
             decoration: BoxDecoration(

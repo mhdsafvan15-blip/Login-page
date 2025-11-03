@@ -6,14 +6,14 @@ class FixedBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 200, // ബാനറിന്റെ ഉയരം
-      width: double.infinity, // സ്ക്രീൻ മുഴുവൻ വീതി
+      height: 200, 
+      width: double.infinity, 
       decoration: BoxDecoration(
-        color: const Color(0xFF6EC1C1), // ബാക്ക്ഗ്രൗണ്ട് കളർ
+        color: const Color(0xFF6EC1C1), 
         borderRadius: BorderRadius.circular(12),
         image: const DecorationImage(
           image: NetworkImage('https://hyyzo.com/blog/content/images/2024/05/flipkart-upcoming-sale.webp'),
-          fit: BoxFit.cover, // ചിത്രം box-ൽ fit ചെയ്യാൻ
+          fit: BoxFit.cover, 
         ),
       ),
       child: Padding(
